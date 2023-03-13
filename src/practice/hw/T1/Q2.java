@@ -4,6 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * כתוב פונקציה שמקבלת מערך ממוין של מילים (מחרוזות המרכבות מאותיות לטיניות בלבד ללא רווחים)
+ * ומדפיסה את מערך שמכיל תדירויות של המילים במערך המקורי.
+ * הערה: לעשות בסיבוכיות O(N).
+ */
 public class Q2 {
     private static int[] frequenciesArray(String[] arr) {
         if (arr.length == 0) return new int[0];

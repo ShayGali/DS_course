@@ -9,6 +9,10 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * מצא את אלגוריתם יעיל, המחזיר את האיבר ה-n בגודלו מתוך מערך לא ממוין.
+ * הערה: אין למיין את המערך ואחר כך למצוא את האיבר. מהי סיבוכיות של האלגוריתם?
+ */
 public class Q1 {
 
     private static void swap(int[] arr, int i, int j) {
