@@ -1,4 +1,4 @@
-package practice.hw.T1;
+package practice.hw.t01;
 
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;

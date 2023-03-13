@@ -1,4 +1,4 @@
-package practice.hw.T2;
+package practice.hw.t02;
 
 import org.junit.jupiter.api.Test;
 

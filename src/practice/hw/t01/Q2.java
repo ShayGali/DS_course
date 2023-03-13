@@ -1,8 +1,8 @@
-package practice.hw.T1;
+package practice.hw.t01;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 /**
  * כתוב פונקציה שמקבלת מערך ממוין של מילים (מחרוזות המרכבות מאותיות לטיניות בלבד ללא רווחים)
