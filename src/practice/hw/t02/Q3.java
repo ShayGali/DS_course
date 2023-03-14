@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * כתוב פונקציה לא רקורסיבית שמקבלת מספר שלם והופכת סדר הספרות, ומחזירה את התוצאה.
  */
 public class Q3 {
-    private static int revers(int n) {
+    private static int reverse(int n) {
         int res = 0;
         while (n != 0) {
             res *= 10;
@@ -20,19 +20,19 @@ public class Q3 {
 
     @Test
     void testReverseIntegerWithPositiveNumber() {
-        int result = revers(12345);
+        int result = reverse(12345);
         assertEquals(54321, result);
     }
 
     @Test
     void testReverseIntegerWithZero() {
-        int result = revers(0);
+        int result = reverse(0);
         assertEquals(0, result);
     }
 
     @Test
     void testReverseIntegerWithSingleDigitNumber() {
-        int result = revers(9);
+        int result = reverse(9);
         assertEquals(9, result);
     }
 
